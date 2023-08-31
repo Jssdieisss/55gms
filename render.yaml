@@ -1,6 +1,6 @@
 services:
   - type: web
     name: incognito
-    env: node
+    env: docker
     buildCommand: npm install
     startCommand: npm start
